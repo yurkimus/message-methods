@@ -1,4 +1,4 @@
-export var HttpMethods = /** @type {const} */ ({
+export var MessageMethods = /** @type {const} */ ({
   Get: 'GET',
   Head: 'HEAD',
   Post: 'POST',

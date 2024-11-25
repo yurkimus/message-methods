@@ -1,8 +1,12 @@
 {
   "typescript": {
-    "semiColons": "asi",
     "quoteStyle": "preferSingle",
-    "useBraces": "maintain"
+    "semiColons": "asi",
+    "indentWidth": 2,
+    "useTabs": false,
+    "useBraces": "maintain",
+    "arrowFunction.useParentheses": "preferNone",
+    "lineWidth": 80
   },
 
   "json": {

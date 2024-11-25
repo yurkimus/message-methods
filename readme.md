@@ -1,6 +1,6 @@
 # HTTP Methods Listing
 
-Listing of RFC2616 HTTP methods
+Listing of RFC2616 Message methods.
 
 Methods are coming from
 [RFC2616/5.1.1](https://www.rfc-editor.org/rfc/rfc2616#section-5.1.1)
@@ -9,47 +9,27 @@ Methods are coming from
 
 - [Installation](#installation)
 - [Exports](#exports)
-  - [HttpMethods](#httpmethods)
+  - [MessageMethods](#messagemethods)
 - [License](#license)
 
 ## Installation
 
-### npm
-
 ```
-npm install @yurkimus/http-methods
-```
-
-### urls
-
-```
-"@yurkimus/http-methods": "npm:@yurkimus/http-methods"
+"@yurkimus/message-methods": "github:yurkimus/message-methods"
 ```
 
 ```
-"@yurkimus/http-methods": "github:yurkimus/http-methods"
-```
-
-```
-"@yurkimus/http-methods": "https://raw.githubusercontent.com/yurkimus/http-methods/main/source/index.js"
+"@yurkimus/message-methods": "https://raw.githubusercontent.com/yurkimus/message-methods/main/source/index.js"
 ```
 
 ## Exports
 
-### HttpMethods
+### MessageMethods
 
 #### Definition:
 
 ```
-HttpMethods :: Object {
-  <name> => <HTTP method>
-}
-```
-
-#### Example:
-
-```javascript
-HttpMethods.Get // => 'GET'
+MessageMethods :: Object { [name: string]: string }
 ```
 
 ## License
